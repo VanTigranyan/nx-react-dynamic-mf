@@ -11,7 +11,10 @@ const MfeLogin = React.lazy(() => import('mfe-login/Module'));
 
 export function App() {
   useEffect(() => {
-    loadRemoteModule('mfe-login', './Module').then(console.log);
+    React.lazy(() => loadRemoteModule('mfe-login', './Module').then(m => {
+      console.log(m);
+      return m;
+    }));
   });
 
   return (
