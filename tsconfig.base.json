@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "mfe-login/Module": ["apps/mfe-login/src/remote-entry.ts"]
+      "@react-monorepo/mylib": ["libs/mylib/src/index.ts"],
+      "mfe-login/Module": ["apps/mfe-login/src/remote-entry.ts"],
+      "remoteobject/Module": ["apps/remote-object/src/remote-entry.ts"],
+      "remoteobject/MyExportedObj": ["libs/mylib/src/lib/mylib.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

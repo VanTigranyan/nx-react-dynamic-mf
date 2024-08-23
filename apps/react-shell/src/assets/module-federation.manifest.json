@@ -1,3 +1,4 @@
 {
-  "mfe-login": "http://localhost:4201"
+  "mfe-login": "http://localhost:4201",
+  "remoteobject": "http://localhost:4202"
 }

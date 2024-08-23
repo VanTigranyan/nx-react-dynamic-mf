@@ -5,9 +5,6 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-import { useEffect } from 'react';
-import { loadRemoteModule } from '@nx/react/mf';
-
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
